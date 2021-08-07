@@ -1,0 +1,151 @@
+/* logo  */
+
+#logo img {
+    height: 50px;
+    width: 50px;
+}
+
+/* header  */
+
+.trust-name {
+    margin: 0px 0px;
+    font-size: 0.9rem;
+}
+
+.school-name {
+    font-size: 1.2rem;
+}
+
+/* navbar */
+
+#navbar ul li {
+    font-size: 0.8rem;
+    padding: 18px 8px;
+}
+
+#navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* cards */
+
+#cards {
+    flex-wrap: wrap;
+}
+
+#cards .card {
+    font-size: 0.7rem;
+    margin: 10px auto;
+}
+
+#cards .card img {
+    height: 86px;
+    width: 140px;
+}
+
+/* about */
+
+#about {
+    flex-wrap: wrap;
+}
+
+/* admission */
+
+#admission {
+    margin: 10px;
+}
+
+#admission .add {
+    padding: 20px;
+}
+
+#admission .add img {
+    height: 100%;
+    width: 100%;
+}
+
+/* admission process */
+
+#addprocess .info {
+    flex-wrap: wrap;
+}
+
+#addprocess h5 {
+    font-size: 1.4rem;
+}
+
+#addprocess .process .mainitm {
+    font-size: 1rem;
+}
+
+#addprocess .process li {
+    margin: 10px 20px;
+}
+
+#addprocess .process p {
+    padding: 5px 20px;
+}
+
+/* Contact and info  */
+
+#contact {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#contact .contact-us h6 {
+    margin: 2px 16px;
+}
+
+#contact .contact-us p {
+    padding: 4px 32px;
+}
+
+#contact .phone h6 {
+    margin: 8px 0px;
+}
+
+#contact .address h6 {
+    margin: 6px 130px;
+}
+
+#contact .address p {
+    padding: 6px 80px;
+}
+/* Facilities */
+#facnavbar {
+    padding: 9px 26px;
+    font-size: 0.9rem;
+}
+#main-img {
+    margin: 16px;
+}
+
+#facilities .fcard {
+    flex-wrap: wrap;
+    margin: 0px 0px;
+}
+#facilities .fcard .fcard1 {
+    padding: 10px 60px;
+    font-size: 0.9rem;
+}
+#facilities .fcard img {
+    width: 250px;
+}
+/* staff */
+#principal{
+    margin: 6px 0px;
+}
+#principal p{
+    padding: 0px;
+    font-size: 0.9rem;
+}
+
+#staff1 p{
+    font-size: 0.9rem;
+
+}

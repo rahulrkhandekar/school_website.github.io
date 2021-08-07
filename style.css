@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+
+#navbar {
+    display: flex;
+    background-color: aliceblue;
+}
+
+/* logo  */
+
+#logo {
+    margin: 12px 16px;
+}
+
+#logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+/* School Name */
+
+.trust-name {
+    margin: 0px 165px;
+    font-size: 1.1rem;
+}
+
+.school-name {
+    font-size: 1.8rem;
+}
+
+/* list items  */
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.1rem;
+    padding: 24px 20px;
+    border-radius: 10px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: black;
+   
+}
+
+#navbar ul li a:hover {
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+/* home */
+
+#home img {
+    height: 100%;
+    width: 100%;
+}
+
+/* cards */
+
+#cards {
+    display: flex;
+    margin: 20px 0px;
+    justify-content: center;
+}
+
+#cards .card {
+    border: 1px solid #dee2e6;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+#cards .card img {
+    height: 180px;
+    width: 300px;
+}
+
+/* about */
+
+#about {
+    display: flex;
+}
+
+#about .information {
+    width: 500px;
+    height: auto;
+    margin: 24px 26px;
+    box-shadow: 0 0.125rem .25rem;
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+#about .information h3 {
+    padding: 14px 17px;
+    color: #007bff;
+}
+
+#about .information .ma {
+    line-height: 1.6;
+}
+
+#about .basic-infra {
+    height: auto;
+    width: 336px;
+    margin: 24px 26px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0.125rem .25rem;
+    padding: 10px;
+}
+
+#about .basic-infra h4 {
+    padding: 14px 17px;
+    text-align: center;
+    color: #007bff;
+}
+
+#about .basic-infra ul li {
+    list-style: none;
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    border: 1px solid rgba(0, 0, 0, .125);
+    margin: 10px;
+}
+
+#about .academic {
+    height: auto;
+    width: 336px;
+    margin: 24px 26px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0.125rem .25rem;
+    padding: 10px;
+}
+
+#about .academic h4 {
+    padding: 14px 17px;
+    text-align: center;
+    color: #007bff;
+}
+
+#about .academic ul li {
+    list-style: none;
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    border: 1px solid rgba(0, 0, 0, .125);
+    margin: 10px;
+}
+
+#admission {
+    display: flex;
+    justify-content: center;
+    background-color: #00aeef;
+    height: auto;
+    margin: 20px;
+}
+
+#admission .add {
+    padding: 35px;
+}
+
+/* admission process */
+
+#addprocess h5 {
+    font-size: 2rem;
+    color: #00aeef;
+}
+
+#addprocess .process {
+    padding: 0 30px;
+}
+
+#addprocess .process .mainitm {
+    padding: 15px 40px;
+    font-size: 1.2rem;
+}
+
+#addprocess .process li {
+    margin: 10px 60px;
+}
+
+#addprocess .process p {
+    padding: 5px 60px;
+}
+
+#addprocess .info {
+    display: flex;
+}
+
+/* Contact and info  */
+
+#contact {
+    background-color: royalblue;
+    display: flex;
+    color: white;
+}
+
+#contact .contact-us {
+    width: 570px;
+    height: auto;
+}
+
+#contact .contact-us h6 {
+    font-size: 1.4rem;
+    margin: 14px 16px;
+}
+
+#contact .contact-us p {
+    padding: 8px 32px;
+}
+
+#contact .phone {
+    letter-spacing: 0.04rem;
+}
+
+#contact .phone h6 {
+    font-size: 1.2rem;
+    margin: 14px 0px;
+}
+
+#contact .phone p {
+    padding: 6px 10px;
+}
+
+#contact .address h6 {
+    font-size: 1.3rem;
+    margin: 14px 130px;
+    letter-spacing: 0.04rem;
+}
+
+#contact .address p {
+    padding: 6px 160px;
+}
+
+/* footer  */
+
+#copyright {
+    text-align: center;
+    background-color: #666;
+    color: white;
+}
+
+/* Facilities */
+
+#facnavbar {
+    font-size: 1.4rem;
+    background-color: #4b8dc6;
+    padding: 15px 30px;
+}
+
+#main-img {
+    margin: 32px;
+}
+
+#main-img img {
+    width: 100%;
+    height: auto;
+}
+
+#facilities .fcard {
+    display: flex;
+    margin: 0 138px;
+}
+
+#facilities .fcard .fcard1 {
+    padding: 20px 80px;
+    font-size: 1.2rem;
+}
+#facilities .fcard .fcard1 p{
+    margin-bottom: 5px;
+}
+
+#facilities .fcard img {
+    width: 400px;
+}
+
+/* staff */
+
+#principal {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+#principal img {
+    width: 20%;
+}
+
+#principal p {
+    padding: 5px;
+}
+
+#staff1 {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+#staff1 img {
+    width: 50%;
+}
+#staff2{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+#staff2 img{
+    width: 50%;
+}
